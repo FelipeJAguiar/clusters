@@ -68,7 +68,7 @@ First of all, the solution was distributed in steps, being the first a basic clu
 
 Font: Author (2023)
 
-An important study about dimensionality reducer contributed to solve this business problem and have a better understanding of clusterization problems. Were used PCA (Principal Component Analysis), UMAP, T-SNE and Tree Based Embedding looking for a better data clusterization and visualization.
+Talking about "final result", an important study about dimensionality reducer contributed to solve this business problem and have a better understanding of clusterization problems. Were used PCA (Principal Component Analysis), UMAP, T-SNE and Tree Based Embedding looking for a better data clusterization and visualization.
 Following the business limitation was chosed 6 as a number of groups (k), so the results are to k=6.
 Below, the results of machine learning algorithms based on Silhouette Score (a metric that analyse the distance between points of data and clusters):
    
@@ -94,7 +94,7 @@ Font: Author (2023)
 
 Cards give to us a general analyse of each cluster. The “TOP” group is “Cluster 2” with the best number for all atributes. The groups “Lost A” and “Lost B” represents customers that bought few products, lost contact and not buy for almost a year. Group “Rescue” means an opportunity of rescue some costumers that bought often but for a random reason stopped buying. They are a relevant percentage of costumers and have sizable atributes values. According their numbers, "Ascending" are customers that have a great chance of transforming into “Veighers” in the future. “Improve”, like “Asceding”, are a group with potential to raise their status but in a lesser level.       
 
-The final clusters dataset was uploaded to a database in MongoDB (NoSQL) to feed Metabase and create clusters and general data visualizations, checking one of business assumptions.   
+The final clusters dataset was uploaded to a database in MongoDB (NoSQL) to feed Metabase, create clusters and general data visualizations, checking one of business assumptions.   
 
 <img src="https://raw.githubusercontent.com/felipejaguiar/clusters/main/image/dashveigh1.PNG" alt="logo20" style="zoom:50%;" />
 <img src="https://raw.githubusercontent.com/felipejaguiar/clusters/main/image/dashveigh2.PNG" alt="logo21" style="zoom:50%;" />
@@ -129,6 +129,8 @@ This project could help the company to solve business question and find opportun
 - Build a forecast model about each cluster.
  
 # References
+
+Loyalty programs: https://www.zendesk.com.br/blog/loyalty-rewards/#georedirect
 
 E-commerce metrics and KPI's: https://thegood.com/insights/ecommerce-metrics/
 
