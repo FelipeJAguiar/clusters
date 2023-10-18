@@ -64,6 +64,10 @@ Steps explained:
 Some clusterization models were tested to obtain the best solution. The models choosed were: Hierarchical Clustering, Gaussian Mixture Model and K-Means.
 First of all, the solution was distributed in steps, being the first a basic clusterization named RFM (Recency, Frequency and Monetary, where some groups are created based on three these attributes) to introduce a basic solution before the complex;  the forward steps were developing the complex solution, studying how to improve the model and increase value.
 
+<img src="https://raw.githubusercontent.com/felipejaguiar/clusters/main/image/veighd.png" alt="logo23" style="zoom:20%;" />
+
+Font: Author (2023)
+
 An important study about dimensionality reducer contributed to solve this business problem and have a better understanding of clusterization problems. Were used PCA (Principal Component Analysis), UMAP, T-SNE and Tree Based Embedding looking for a better data clusterization and visualization.
 Following the business limitation was chosed 6 as a number of groups (k), so the results are to k=6.
 Below, the results of machine learning algorithms based on Silhouette Score (a metric that analyse the distance between points of data and clusters):
@@ -88,12 +92,14 @@ The results os segmentation were obtained and some of principals charecteristics
 
 Font: Author (2023)
 
-Cards give to us a general analyse of each cluster. The “TOP” group is “Cluster 2” with the best number for all atributes. The groups “Lost A” and “Lost B” represents customers that bought few products, lost contact and not buy for almost a year. Group “Rescue” means an opportunity of rescue some costumers that bought often but for a random reason stopped buying. They are a relevant percentage of costumers and have sizable atributes values. “Ascending”, according their numbers, are customers that have a great chance of transform into “Veighers” in the future. “Improve”, like “Asceding”, are a group with potential to raise their status but in a lesser level.       
-The final clusters dataset was uploaded to a database in MongoDB (NoSQL) to feed Metabase and create clusters data visualizations, checking one of business assumptions.   
+Cards give to us a general analyse of each cluster. The “TOP” group is “Cluster 2” with the best number for all atributes. The groups “Lost A” and “Lost B” represents customers that bought few products, lost contact and not buy for almost a year. Group “Rescue” means an opportunity of rescue some costumers that bought often but for a random reason stopped buying. They are a relevant percentage of costumers and have sizable atributes values. According their numbers, "Ascending" are customers that have a great chance of transforming into “Veighers” in the future. “Improve”, like “Asceding”, are a group with potential to raise their status but in a lesser level.       
 
-<img src="https://raw.githubusercontent.com/felipejaguiar/clusters/main/image/dashveigh1.png" alt="logo15" style="zoom:50%;" />
+The final clusters dataset was uploaded to a database in MongoDB (NoSQL) to feed Metabase and create clusters and general data visualizations, checking one of business assumptions.   
 
-<img src="https://raw.githubusercontent.com/felipejaguiar/clusters/main/image/dashveigh2.png" alt="logo16" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/felipejaguiar/clusters/main/image/dashveigh1.PNG" alt="logo20" style="zoom:50%;" />
+<img src="https://raw.githubusercontent.com/felipejaguiar/clusters/main/image/dashveigh2.PNG" alt="logo21" style="zoom:50%;" />
+
+* Red = bad value; Yellow = regular value; Green = good value.
 
 # Top 3 Veighers Insights
 
@@ -125,6 +131,7 @@ This project could help the company to solve business question and find opportun
 # References
 
 E-commerce metrics and KPI's: https://thegood.com/insights/ecommerce-metrics/
+
 Dimensionality reduction: https://towardsdatascience.com/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe
 
 # <b>Tools:</b>
