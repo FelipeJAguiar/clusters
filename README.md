@@ -92,7 +92,15 @@ The results os segmentation were obtained and some of principals charecteristics
 
 Font: Author (2023)
 
-Cards give to us a general analyse of each cluster. The “TOP” group is “Cluster 2” with the best number for all atributes. The groups “Lost A” and “Lost B” represents customers that bought few products, lost contact and not buy for almost a year. Group “Rescue” means an opportunity of rescue some costumers that bought often but for a random reason stopped buying. They are a relevant percentage of costumers and have sizable atributes values. According their numbers, "Ascending" are customers that have a great chance of transforming into “Veighers” in the future. “Improve”, like “Asceding”, are a group with potential to raise their status but in a lesser level.       
+Cards give to us a general analyse of each cluster. 
+
+💡 The “TOP” group is “Cluster 2” are the customers that have a higher level of revenue, purchases and purchase frequency, indicating the most important group for the company. Focus on promote retention and rewards would be great for this group and increase customer lifetime value!
+
+💡 The groups “Lost A” and “Lost B” represents customers that bought few products and lost contact for almost a year. Bringing this group back, would be hard, expensive and decrease ROI (Return On Investiment).   
+
+💡 Group “Rescue” means an opportunity of rescue some costumers that bought often but for a random reason stopped buying. They are a relevant percentage of costumers and have sizable atributes values. So, creating actions to attract and improve customer-company relation, could help to retaining customers.  
+
+💡 According their numbers, "Ascending" are customers that have a great chance of transforming into “Veighers” in the future. “Improve”, like “Asceding”, are a group with potential to raise their status but in a lesser level. These are groups with the higher chance of elevate. Focus on campaigns that estimulate big frequently purchases, motivating costumers consumer behaviours, will be increasing revenues, retention and sales.    
 
 The final clusters dataset was uploaded to a database in MongoDB (NoSQL) to feed Metabase, create clusters and general data visualizations, checking one of business assumptions.   
 
