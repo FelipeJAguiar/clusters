@@ -5,7 +5,7 @@
 #### This project was based on e-commerce dataset and made by Felipe Aguiar. All context about company are fictitious.
 
 # Business Problem
-The Veigh Company is an e-commerce that sells products from different brands. The company has been in business for 2 years and registred a relevant growth. Looking for opportunities gaps, in a dailly meeting, the marketing team realized the importance of understanding the Veigh's costumers that are more representative to company. They want to agroup their customers to create a fidelity program, customizing business actions to each group. So Marketing Team asked Data Team for help to complete this task and:  
+The Veigh Company is an e-commerce that sells products from different brands. The company has been in business for 2 years and registred a relevant growth. Looking for opportunities gaps, in a dailly meeting, the marketing team realized the importance of understanding the Veigh's customers that are more representative to company. They want to agroup their customers to create a fidelity program, customizing business actions to each group. So Marketing Team asked Data Team for help to complete this task and:  
 
 👉 Provide a customer segmentation to build a fidelity program.
 
@@ -22,7 +22,7 @@ Business assumptions made were divided in two topics:
 
    🟪 Which group is most important to the company?
    
-   🟪 How many costumers will be part of the main group?
+   🟪 How many customers will be part of the main group?
    
    🟪 Which revenue’s percentage the most important group represents?
 
@@ -98,11 +98,11 @@ Cards give to us a general analyse of each cluster.
 
 💡 The groups “Lost A” and “Lost B” represents customers that bought few products and lost contact for almost a year. Bringing this group back, would be hard, expensive and decrease ROI (Return On Investiment).   
 
-💡 Group “Rescue” means an opportunity of rescue some costumers that bought often but for a random reason stopped buying. They are a relevant percentage of costumers and have sizable atributes values. So, creating actions to attract and improve customer-company relation, could help to retaining customers.  
+💡 Group “Rescue” means an opportunity of rescue some customers that bought often but for a random reason stopped buying. They are a relevant percentage of customers and have sizable atributes values. So, creating actions to attract and improve customer-company relation, could help to retaining customers.  
 
-💡 According their numbers, "Ascending" are customers that have a great chance of transforming into “Veighers” in the future. “Improve”, like “Asceding”, are a group with potential to raise their status but in a lesser level. These are groups with the higher chance of elevate. Focus on campaigns that estimulate big frequently purchases, motivating costumers consumer behaviours, will be increasing revenues, retention and sales.    
+💡 According their numbers, "Ascending" are customers that have a great chance of transforming into “Veighers” in the future. “Improve”, like “Asceding”, are a group with potential to raise their status but in a lesser level. These are groups with the higher chance of elevate. Focus on campaigns that estimulate big frequently purchases, motivating customers consumer behaviours, will be increasing revenues, retention and sales.    
 
-The final clusters dataset was uploaded to a database in MongoDB (NoSQL) to feed Metabase, create clusters and general data visualizations, checking one of business assumptions.   
+The final clusters dataset was uploaded to a database in MongoDB (NoSQL) to feed Metabase, creating clusters and general data visualizations, checking one of business assumptions.   
 
 <img src="https://raw.githubusercontent.com/felipejaguiar/clusters/main/image/dashveigh1.PNG" alt="logo20" style="zoom:50%;" />
 <img src="https://raw.githubusercontent.com/felipejaguiar/clusters/main/image/dashveigh2.PNG" alt="logo21" style="zoom:50%;" />
@@ -125,7 +125,7 @@ The final clusters dataset was uploaded to a database in MongoDB (NoSQL) to feed
 
 # Conclusions
 
-Finally, all the questions and the business problem were solved and answered by the built model, indicating the best structure to create a fidelity program. Now, the marketing team is able to elaborate a strong plan and implement specific actions for each costumers  group.
+Finally, all the questions and the business problem were solved and answered by the built model, indicating the best structure to create a fidelity program. Now, the marketing team is able to elaborate a strong plan and implement specific actions for each customers  group.
 This project could help the company to solve business question and find opportunities to increase earnings through Data Science techniques. Besides it, was a big chance to develop my Data Science knowledge, learning about different machine learning algorithms, dimensionality reducer, metrics and tools. 
 
 # Next Steps to Improve
