@@ -5,7 +5,7 @@
 #### This project was based on e-commerce dataset and made by Felipe Aguiar. All context about company are fictitious.
 
 # Business Problem
-The Veigh Company is an e-commerce that sells products from different brands. The company has been in business for 2 years and registred a relevant growth. Looking for opportunities gaps, in a dailly meeting, the marketing team realized the importance of understanding the Veigh's customers that are more representative to company. They want to agroup their customers to create a fidelity program, customizing business actions to each group. So Marketing Team asked Data Team for help to complete this task and:  
+The Veigh Company is an e-commerce that sells products from different brands. The company has been in business for 2 years and registered a relevant growth. Looking for opportunities gaps, in a dailly meeting, the marketing team realized the importance of understanding the Veigh's customers that are more representative to company. They want to agroup their customers to create a fidelity program, customizing business actions to each group. So Marketing Team asked Data Team for help to complete this task and:  
 
 👉 Provide a customer segmentation to build a fidelity program.
 
