@@ -94,7 +94,7 @@ Font: Author (2023)
 
 Cards give to us a general analyse of each cluster. 
 
-💡 The “TOP” group is “Cluster 2” are the customers that have a higher level of revenue, purchases and purchase frequency, indicating the most important group for the company. Focus on promote retention and rewards would be great for this group and increase customer lifetime value!
+💡 The “TOP” group is “Cluster 5” are the customers that have a higher level of revenue, purchases and purchase frequency, indicating the most important group for the company. Focus on promote retention and rewards would be great for this group and increase customer lifetime value!
 
 💡 The groups “Lost A” and “Lost B” represents customers that bought few products and lost contact for almost a year. Bringing this group back, would be hard, expensive and decrease ROI (Return On Investiment).   
 
